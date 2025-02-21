@@ -3,7 +3,7 @@ const recommendationCard = [
   {
     id: 0,
     name: 'Alan Grissette',
-    image: "images/alan.jpg",
+    image: "images/alan.jpeg",
     designation: 'Aspiring Coding Superstar',
     view: "If anyone ever hires me, I guarantee you'll wonder how you ever managed without me! My ability to turn caffeine into code is unparalleled. While I may not have the reviews yet, my commitment to excellence and knack for solving problems will leave you amazed. Trust me, I’m just one project away from being a household name in tech! 🚀",
     linkednURL: "https://www.linkedin.com/in/alangrissette/"
