@@ -2,7 +2,7 @@ const portfolio = [
     {
         id: 0,
         projectName: "PET MATE",
-        url: "https://github.com/algrissette/PetMate",
+        url: "https://github.com/algrissette/Pet-Mate",
         image: "/projects/Chat Page.png", // Replace with the correct image path if needed
         projectDetail: "PetMate is a comprehensive web application that allows users to list and rent pets. The platform features user profiles, messaging, and a commenting system to facilitate interactions. With secure payment processing and geolocation capabilities, PetMate enhances the pet rental experience.",
         technologiesUsed: [
@@ -84,7 +84,7 @@ const portfolio = [
     {
         id: 7,
         projectName: "Alan Grissette Portfolio",
-        url: "https://github.com/algrissette/Alan-Grissette",
+        url: "https://github.com/algrissette/Alan-Grissette-s",
         image: "/projects/portfolio.png", // Replace with the correct image path if needed
         projectDetail: "My personal portfolio showcasing projects, skills, and experience, designed to highlight my journey as a developer.",
         technologiesUsed: [
