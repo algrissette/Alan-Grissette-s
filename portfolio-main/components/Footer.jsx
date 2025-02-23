@@ -13,7 +13,7 @@ const Footer = () => {
                     <span>2024 All Rights Reserved.</span>
                 </div>
                 <div className="flex items-center">
-                    <a href='https://www.fiverr.com/codeworthy' target="_blank" rel="noreferrer">
+                    <a href='https://github.com/algrissette' target="_blank" rel="noreferrer">
                         Made with ❤️ by <span className='font-bold'>Alan Grissette</span>
                     </a>
                 </div>
