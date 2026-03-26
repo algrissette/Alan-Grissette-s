@@ -1,0 +1,36 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/recommendations";
+exports.ids = ["pages/api/recommendations"];
+exports.modules = {
+
+/***/ "(api)/./pages/api/recommendations.js":
+/*!**************************************!*\
+  !*** ./pages/api/recommendations.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n// Next.js API route support: https://nextjs.org/docs/api-routes/introduction\nconst recommendationCard = [\n    {\n        id: 0,\n        name: \"Alan Grissette\",\n        image: \"images/alan.jpeg\",\n        designation: \"Aspiring Coding Superstar\",\n        view: \"If anyone ever hires me, I guarantee you'll wonder how you ever managed without me! My ability to turn caffeine into code is unparalleled. While I may not have the reviews yet, my commitment to excellence and knack for solving problems will leave you amazed. Trust me, I’m just one project away from being a household name in tech! \\uD83D\\uDE80\",\n        linkednURL: \"https://www.linkedin.com/in/alangrissette/\"\n    },\n    {\n        id: 1,\n        name: \"Naomi Downing\",\n        image: \"images/naomi.PNG\",\n        designation: \"Software Engineer from Hong Kong\",\n        view: \"Working with Alan has been an absolute delight! His passion for coding is infectious, and his problem-solving skills are top-notch. Not only is he a superb coder, but he also brings a fun energy to the team that makes every project enjoyable. If you want someone who combines talent with a great sense of humor, Alan is your guy! \\uD83C\\uDF89\",\n        linkednURL: \"https://www.linkedin.com/in/naomi-downing/\"\n    },\n    {\n        id: 2,\n        name: \"Haya Almajali\",\n        image: \"images/Halmajali.PNG\",\n        designation: \"Data Scientist from Jordan\",\n        view: \"Alan is one of those rare talents who makes coding look easy! His technical skills are impressive, but what really sets him apart is his friendly demeanor and willingness to help others. He's not just a superb coder; he’s a fantastic friend who makes every team project a breeze. I always look forward to collaborating with him! \\uD83C\\uDF1F\",\n        linkednURL: \" https://www.linkedin.com/in/hayamaj/\"\n    }\n];\nfunction handler(req, res) {\n    res.status(200).json(recommendationCard);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvcmVjb21tZW5kYXRpb25zLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSw2RUFBNkU7QUFDN0UsTUFBTUEscUJBQXFCO0lBQ3pCO1FBQ0VDLElBQUk7UUFDSkMsTUFBTTtRQUNOQyxPQUFPO1FBQ1BDLGFBQWE7UUFDYkMsTUFBTTtRQUNOQyxZQUFZO0lBQ2Q7SUFDQTtRQUNFTCxJQUFJO1FBQ0pDLE1BQU07UUFDTkMsT0FBTztRQUNQQyxhQUFhO1FBQ2JDLE1BQU07UUFDTkMsWUFBWTtJQUNkO0lBQ0E7UUFDRUwsSUFBSTtRQUNKQyxNQUFNO1FBQ05DLE9BQU87UUFDUEMsYUFBYTtRQUNiQyxNQUFNO1FBQ05DLFlBQVk7SUFDZDtDQUNEO0FBSWMsU0FBU0MsUUFBUUMsR0FBRyxFQUFFQyxHQUFHLEVBQUU7SUFDeENBLElBQUlDLE1BQU0sQ0FBQyxLQUFLQyxJQUFJLENBQUNYO0FBQ3ZCLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wb3J0Zm9saW8vLi9wYWdlcy9hcGkvcmVjb21tZW5kYXRpb25zLmpzPzhjMzIiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gTmV4dC5qcyBBUEkgcm91dGUgc3VwcG9ydDogaHR0cHM6Ly9uZXh0anMub3JnL2RvY3MvYXBpLXJvdXRlcy9pbnRyb2R1Y3Rpb25cclxuY29uc3QgcmVjb21tZW5kYXRpb25DYXJkID0gW1xyXG4gIHtcclxuICAgIGlkOiAwLFxyXG4gICAgbmFtZTogJ0FsYW4gR3Jpc3NldHRlJyxcclxuICAgIGltYWdlOiBcImltYWdlcy9hbGFuLmpwZWdcIixcclxuICAgIGRlc2lnbmF0aW9uOiAnQXNwaXJpbmcgQ29kaW5nIFN1cGVyc3RhcicsXHJcbiAgICB2aWV3OiBcIklmIGFueW9uZSBldmVyIGhpcmVzIG1lLCBJIGd1YXJhbnRlZSB5b3UnbGwgd29uZGVyIGhvdyB5b3UgZXZlciBtYW5hZ2VkIHdpdGhvdXQgbWUhIE15IGFiaWxpdHkgdG8gdHVybiBjYWZmZWluZSBpbnRvIGNvZGUgaXMgdW5wYXJhbGxlbGVkLiBXaGlsZSBJIG1heSBub3QgaGF2ZSB0aGUgcmV2aWV3cyB5ZXQsIG15IGNvbW1pdG1lbnQgdG8gZXhjZWxsZW5jZSBhbmQga25hY2sgZm9yIHNvbHZpbmcgcHJvYmxlbXMgd2lsbCBsZWF2ZSB5b3UgYW1hemVkLiBUcnVzdCBtZSwgSeKAmW0ganVzdCBvbmUgcHJvamVjdCBhd2F5IGZyb20gYmVpbmcgYSBob3VzZWhvbGQgbmFtZSBpbiB0ZWNoISDwn5qAXCIsXHJcbiAgICBsaW5rZWRuVVJMOiBcImh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9pbi9hbGFuZ3Jpc3NldHRlL1wiXHJcbiAgfSxcclxuICB7XHJcbiAgICBpZDogMSxcclxuICAgIG5hbWU6ICdOYW9taSBEb3duaW5nJyxcclxuICAgIGltYWdlOiBcImltYWdlcy9uYW9taS5QTkdcIiwgLy8gUmVwbGFjZSB3aXRoIHRoZSBjb3JyZWN0IGltYWdlIHBhdGggaWYgbmVlZGVkXHJcbiAgICBkZXNpZ25hdGlvbjogJ1NvZnR3YXJlIEVuZ2luZWVyIGZyb20gSG9uZyBLb25nJyxcclxuICAgIHZpZXc6IFwiV29ya2luZyB3aXRoIEFsYW4gaGFzIGJlZW4gYW4gYWJzb2x1dGUgZGVsaWdodCEgSGlzIHBhc3Npb24gZm9yIGNvZGluZyBpcyBpbmZlY3Rpb3VzLCBhbmQgaGlzIHByb2JsZW0tc29sdmluZyBza2lsbHMgYXJlIHRvcC1ub3RjaC4gTm90IG9ubHkgaXMgaGUgYSBzdXBlcmIgY29kZXIsIGJ1dCBoZSBhbHNvIGJyaW5ncyBhIGZ1biBlbmVyZ3kgdG8gdGhlIHRlYW0gdGhhdCBtYWtlcyBldmVyeSBwcm9qZWN0IGVuam95YWJsZS4gSWYgeW91IHdhbnQgc29tZW9uZSB3aG8gY29tYmluZXMgdGFsZW50IHdpdGggYSBncmVhdCBzZW5zZSBvZiBodW1vciwgQWxhbiBpcyB5b3VyIGd1eSEg8J+OiVwiLFxyXG4gICAgbGlua2VkblVSTDogXCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vbmFvbWktZG93bmluZy9cIlxyXG4gIH0sXHJcbiAge1xyXG4gICAgaWQ6IDIsXHJcbiAgICBuYW1lOiAnSGF5YSBBbG1hamFsaScsXHJcbiAgICBpbWFnZTogXCJpbWFnZXMvSGFsbWFqYWxpLlBOR1wiLCAvLyBSZXBsYWNlIHdpdGggdGhlIGNvcnJlY3QgaW1hZ2UgcGF0aCBpZiBuZWVkZWRcclxuICAgIGRlc2lnbmF0aW9uOiAnRGF0YSBTY2llbnRpc3QgZnJvbSBKb3JkYW4nLFxyXG4gICAgdmlldzogXCJBbGFuIGlzIG9uZSBvZiB0aG9zZSByYXJlIHRhbGVudHMgd2hvIG1ha2VzIGNvZGluZyBsb29rIGVhc3khIEhpcyB0ZWNobmljYWwgc2tpbGxzIGFyZSBpbXByZXNzaXZlLCBidXQgd2hhdCByZWFsbHkgc2V0cyBoaW0gYXBhcnQgaXMgaGlzIGZyaWVuZGx5IGRlbWVhbm9yIGFuZCB3aWxsaW5nbmVzcyB0byBoZWxwIG90aGVycy4gSGUncyBub3QganVzdCBhIHN1cGVyYiBjb2RlcjsgaGXigJlzIGEgZmFudGFzdGljIGZyaWVuZCB3aG8gbWFrZXMgZXZlcnkgdGVhbSBwcm9qZWN0IGEgYnJlZXplLiBJIGFsd2F5cyBsb29rIGZvcndhcmQgdG8gY29sbGFib3JhdGluZyB3aXRoIGhpbSEg8J+Mn1wiLFxyXG4gICAgbGlua2VkblVSTDogXCIgaHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL2hheWFtYWovXCJcclxuICB9XHJcbl07XHJcblxyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGhhbmRsZXIocmVxLCByZXMpIHtcclxuICByZXMuc3RhdHVzKDIwMCkuanNvbihyZWNvbW1lbmRhdGlvbkNhcmQpXHJcbn1cclxuIl0sIm5hbWVzIjpbInJlY29tbWVuZGF0aW9uQ2FyZCIsImlkIiwibmFtZSIsImltYWdlIiwiZGVzaWduYXRpb24iLCJ2aWV3IiwibGlua2VkblVSTCIsImhhbmRsZXIiLCJyZXEiLCJyZXMiLCJzdGF0dXMiLCJqc29uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./pages/api/recommendations.js\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/recommendations.js"));
+module.exports = __webpack_exports__;
+
+})();
