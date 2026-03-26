@@ -16,8 +16,11 @@ const Banner = () => {
                                         <Typewriter
                                             options={{
                                                 strings: [
-                                                    'Full Stack Developer',
-                                                    'Next.js Developer'
+                                                    'Full Stack Engineer',
+                                                    'React & TypeScript Developer',
+                                                    'Node.js & API Builder',
+                                                    'Cloud & Scalable Systems Engineer',
+                                                    'Building Production-Ready Web Apps'
                                                 ],
                                                 autoStart: true,
                                                 loop: true,
@@ -27,29 +30,27 @@ const Banner = () => {
                             </div>
                             <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link>
                         </div>
-                        <div className="w-48 h-52 relative hidden md:block">
-                            <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
-                        </div>
+
                     </div>
                 </div>
 
-         {/* details in row */}
-<div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
-    <div className="flex items-center gap-x-1">
-        <span className='text-base md:text-lg text-Green font-bold'>10+</span>
-        <span className='text-xs text-Snow'>Completed Projects</span>
-    </div>
-    <div className="flex items-center gap-x-1">
-        <span className='text-base md:text-lg text-Green font-bold'>3</span>
-        <span className='text-xs text-Snow'>Key Technologies: C#, Blazor, Java</span>
-    </div>
-    <div className="flex items-center gap-x-1">
-        <span className='text-base md:text-lg text-Green font-bold'></span>
-        <span className='text-xs text-Snow'>Looking for work</span>
-    </div>
-</div>
+                {/* details in row */}
+                <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
+                    <div className="flex items-center gap-x-1">
+                        <span className='text-base md:text-lg text-Green font-bold'>10+</span>
+                        <span className='text-xs text-Snow'>Completed Projects</span>
+                    </div>
+                    <div className="flex items-center gap-x-1">
+                        <span className='text-base md:text-lg text-Green font-bold'>3</span>
+                        <span className='text-xs text-Snow'>Key Technologies: C#, Blazor, Java</span>
+                    </div>
+                    <div className="flex items-center gap-x-1">
+                        <span className='text-base md:text-lg text-Green font-bold'></span>
+                        <span className='text-xs text-Snow'>Looking for work</span>
+                    </div>
+                </div>
 
-            
+
             </div>
         </BannerLayout>
     )
